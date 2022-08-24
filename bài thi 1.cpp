@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n;
+	printf("nhap n:");
+	scanf("%d",&n); 
+	float s;
+	s=0; 
+	for(int i;i<=n;i++){
+		s=s+1.0/i; 
+	}
+	printf("tong la %f",s); 
+} 
